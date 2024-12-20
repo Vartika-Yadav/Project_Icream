@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ice Cream Shop Landing Page</title>
+    <link rel="stylesheet" href="Landing page.css">
+    <script src="Landing page.js"></script>
+</head>
+<body>
+    <header class="container">
+        <div class="logo">ICream</div>
+        <nav>
+            <ul class="nav-items">
+                <li class="nav-item">Home</li>
+                <li class="nav-item">Product</li>
+                <li class="nav-item">About</li>
+                <li class="nav-item" href="#contact">Contact</li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <h1>Real ice cream for real ice cream lovers</h1>
+            <p>Sweet ice cream for pleasure seekers.</p>
+            <button class="button btn-primary">BUY ONLINE</button>
+            <button class="button btn-secondary">FIND IN STORE</button>
+        </div>
+    </section>
+
+    <section class="about"> 
+        <div class="container">
+             <h2>About Us</h2>
+              <div class="about-content"> 
+                <div class="about-text">
+                     <p>Welcome to ICream! Our mission is to create the most delightful ice cream experiences for our customers.</p> 
+                     <p>Founded in 2024, ICream has been at the forefront of ice cream innovation, creating a range of exceptional flavors using only the finest ingredients. Our dedication to quality and customer satisfaction has made us a favorite among ice cream lovers.</p>
+                      <p>Whether you're a fan of classic flavors or looking to try something new and exciting, ICream has something for everyone.</p>
+                     </div> 
+                     <div class="about-image"> 
+                        <img src="https://images.pexels.com/photos/373888/pexels-photo-373888.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Our Team">
+                     </div> 
+                    </div>
+                 </div>
+                 </section>
+    
+    <section class="products">
+        <div class="container">
+            <h2>We Pride Ourselves On Exceptional Flavors</h2>
+            <p>The nearly -200 °C (-328 °F) liquid freezes the ingredients—sweet cream, flavoring, and handpicked mix-ins—almost instantaneously, creating tiny ice crystals and a smooth texture.</p>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/1343504/pexels-photo-1343504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Ice cream honey">
+                    <div class="card-content">
+                        <h3>Ice cream honey</h3>
+                        <div class="price">$7</div>
+                        <button class="buy-button">Buy</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/461189/pexels-photo-461189.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Choco delight">
+                    <div class="card-content">
+                        <h3>Choco delight</h3>
+                        <div class="price">$5</div>
+                        <button class="buy-button">Buy</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/675439/pexels-photo-675439.jpeg" alt="Carnival strawberry">
+                    <div class="card-content">
+                        <h3>Carnival strawberry</h3>
+                        <div class="price">$15</div>
+                        <button class="buy-button">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Advertisement Section -->
+    <section class="advertisement">
+        <div class="container">
+            <div class="advertisement-card">
+                <div class="advertisement-content">
+                    <div class="advertisement-text">
+                        <h2>Limited Time Offer</h2>
+                        <p>Get your favorite ice cream with a <strong>50% discount</strong>! Hurry, stock is limited.</p>
+                        <button class="button btn-primary">Buy Now</button>
+                    </div>
+                    <div class="advertisement-image">
+                        <img src="https://images.pexels.com/photos/5691843/pexels-photo-5691843.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Advertisement">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <!-- Contact Page Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like more information, please get in touch with us.</p>
+            <form action="contact.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="button btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer> <div class="container">
+         <p>&copy; 2024 eCream. All rights reserved.</p> 
+         <div class="social-icons">
+             <div class="icon twitter">
+                 <div class="tooltip">Twitter</div>
+                  <span><i class="fa fa-twitter"></i></span>
+                 </div> <div class="icon instagram">
+                     <div class="tooltip">Instagram</div> 
+                     <span><i class="fa fa-instagram"></i>
+                    </span> </div> <div class="icon github">
+                         <div class="tooltip">Github</div>
+                          <span><i class="fa fa-github"></i></span>
+                         </div> <div class="icon youtube">
+                             <div class="tooltip">YouTube</div> 
+                             <span><i class="fa fa-youtube-play">
+                                
+                             </i></span> </div> </div> </div> </footer>
+    
+</body>
+</html>
